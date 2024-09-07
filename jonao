@@ -1,0 +1,2 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Night29065/DumpsterWare-/main/AIMLOCK",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1kidskidder/buttons/main/button1",true))()
