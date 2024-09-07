@@ -1,0 +1,15 @@
+local CoastingLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostDuckyy/UI-Libraries/main/Coasting%20Ui%20Lib/source.lua"))()
+local Aimlock = loadstring(game:HttpGet("https://raw.githubusercontent.com/Night29065/DumpsterWare-/main/AIMLOCK"))()
+local AimbotTab = CoastingLibrary:CreateTab("Aimlock")
+local MainSection = AimbotTab:CreateSection("Main")
+local ConfigSection = AimbotTab:CreateSection("Config")
+
+MainSection:CreateButton("Click Me!", function()
+   print("Boo!")    
+end)
+
+MainSection:CreateLabel("Namey", "Hello!")
+
+  MainSection:CreateToggle("Aimlock", function(boolean)local Aimlock = Enabled
+   print("Aimbot:", boolean)
+end)
