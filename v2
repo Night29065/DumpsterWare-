@@ -10,6 +10,6 @@ end)
 
 MainSection:CreateLabel("Namey", "Hello!")
 
-  MainSection:CreateToggle("Aimlock", function(boolean)local Aimlock = Enabled
-   print("Aimlock:", boolean)
+  MainSection:CreateToggle("Aimlock", function(boolean)Aimlock = Enabled
+   print("Aimbot:", boolean)
 end)
